@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup"
+    android:background="@drawable/sky">
+
+
+    <TextView
+
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Welcome To The NSBM Family"
+        android:textColor="@color/darkgreen"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+
+    <EditText
+        android:id="@+id/fristname"
+        android:layout_width="330dp"
+        android:layout_height="64dp"
+        android:layout_below="@+id/head"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:hint="First Name"
+        android:textStyle="bold"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/secondname"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fristname"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="23dp"
+        android:hint="Last Name"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/secondname"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="28dp"
+        android:hint="Email"
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/secondname"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="202dp"
+        android:hint="Password"
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+
+        />
+
+    <EditText
+        android:id="@+id/batchno"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/secondname"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="115dp"
+        android:hint="Batch number"
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+
+        />
+
+    <Button
+
+        android:id="@+id/signup"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/secondname"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="287dp"
+        android:background="@drawable/background"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="211dp"
+        />
+
+
+
+
+</RelativeLayout>
+

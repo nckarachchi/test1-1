@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nsbm_papers_application">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Nsbm_papers_application">
+        <uses-permission android:name="android.permission.INTERNET" />
+
+        <application
+            android:allowBackup="true"
+            android:fullBackupOnly="true"
+            android:icon="@mipmap/newi"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/newi_round"
+            android:supportsRtl="true"
+            android:theme="@style/Theme.Nsbm_papers_application">
+
+            <activity
+                android:name=".email"
+                android:exported="false" />
+            <activity
+                android:name=".nsbmclub"
+                android:exported="false" />
+            <activity
+                android:name=".nlearn"
+                android:exported="false" />
+            <activity
+                android:name=".e_vict_4"
+                android:exported="false" />
+            <activity
+                android:name=".e_vict_3"
+                android:exported="false" />
+            <activity
+                android:name=".e_vict_2"
+                android:exported="false" />
+            <activity
+                android:name=".e_vict_1"
+                android:exported="false" />
+            <activity
+                android:name=".m_vict_4"
+                android:exported="false" />
+            <activity
+                android:name=".m_vict_3"
+                android:exported="false" />
+            <activity
+                android:name=".m_vict_2"
+                android:exported="false" />
+            <activity
+                android:name=".m_vict_1"
+                android:exported="false" />
+            <activity
+                android:name=".c_vict_4"
+                android:exported="false" />
+            <activity
+                android:name=".c_vict_3"
+                android:exported="false" />
+            <activity
+                android:name=".c_vict_2"
+                android:exported="false" />
+            <activity
+                android:name=".c_vict_1"
+                android:exported="false" />
+            <activity
+                android:name=".c_ply_1"
+                android:exported="false" />
+            <activity
+                android:name=".m_ply_4"
+                android:exported="false" />
+            <activity
+                android:name=".m_ply_3"
+                android:exported="false" />
+            <activity
+                android:name=".m_ply_2"
+                android:exported="false" />
+            <activity
+                android:name=".m_ply_1"
+                android:exported="false" />
+            <activity
+                android:name=".e_ply_4"
+                android:exported="false" />
+            <activity
+                android:name=".e_ply_3"
+                android:exported="false" />
+            <activity
+                android:name=".e_ply_2"
+                android:exported="false" />
+            <activity
+                android:name=".e_ply_1"
+                android:exported="false" />
+            <activity
+                android:name=".c_ply_4"
+                android:exported="false" />
+            <activity
+                android:name=".c_ply_3"
+                android:exported="false" />
+            <activity
+                android:name=".c_ply_2"
+                android:exported="false" />
+            <activity
+                android:name=".m_ud_4"
+                android:exported="false" />
+            <activity
+                android:name=".m_ud_3"
+                android:exported="false" />
+            <activity
+                android:name=".m_ud_2"
+                android:exported="false" />
+            <activity
+                android:name=".m_ud_1"
+                android:exported="false" />
+            <activity
+                android:name=".e_ud_4"
+                android:exported="false" />
+            <activity
+                android:name=".e_ud_3"
+                android:exported="false" />
+            <activity
+                android:name=".e_ud_2"
+                android:exported="false" />
+            <activity
+                android:name=".e_ud_1"
+                android:exported="false" />
+            <activity
+                android:name=".c_ud_4"
+                android:exported="false" />
+            <activity
+                android:name=".c_ud_3"
+                android:exported="false" />
+            <activity
+                android:name=".c_ud_2"
+                android:exported="false" />
+            <activity
+                android:name=".c_ud_1"
+                android:exported="false" />
+            <activity
+                android:name=".m_ug_4"
+                android:exported="false" />
+            <activity
+                android:name=".m_ug_3"
+                android:exported="false" />
+            <activity
+                android:name=".m_ug_2"
+                android:exported="false" />
+            <activity
+                android:name=".m_ug_1"
+                android:exported="false" />
+            <activity
+                android:name=".e_ug_4"
+                android:exported="false" />
+            <activity
+                android:name=".e_ug_3"
+                android:exported="false" />
+            <activity
+                android:name=".e_ug_2"
+                android:exported="false" />
+            <activity
+                android:name=".e_ug_1"
+                android:exported="false" />
+            <activity
+                android:name=".c_ug_4"
+                android:exported="false" />
+            <activity
+                android:name=".c_ug_3"
+                android:exported="false" />
+            <activity
+                android:name=".c_ug_2"
+                android:exported="false" />
+            <activity
+                android:name=".c_ug_1"
+                android:exported="false" />
+            <activity
+                android:name=".c_victoriya_yearselection"
+                android:exported="false" />
+            <activity
+                android:name=".m_victoriya_yearselection"
+                android:exported="false" />
+            <activity
+                android:name=".e_victoriya_yearselection"
+                android:exported="false" />
+            <activity
+                android:name=".c_udc_yearselection"
+                android:exported="false" />
+            <activity
+                android:name=".m_udc_yearselection"
+                android:exported="false" />
+            <activity
+                android:name=".e_udc_yearselection"
+                android:exported="false" />
+            <activity
+                android:name=".c_ugc_yearselection"
+                android:exported="false" />
+            <activity
+                android:name=".m_ugc_yearselection"
+                android:exported="false" />
+            <activity
+                android:name=".e_ugc_yearselection"
+                android:exported="false" />
+            <activity
+                android:name=".m_ply_yearselection"
+                android:exported="false" />
+            <activity
+                android:name=".c_ply_yearselection"
+                android:exported="false" />
+            <activity
+                android:name=".e_ply_yearselection"
+                android:exported="false" />
+            <activity
+                android:name=".engineeruniversity"
+                android:exported="false" />
+            <activity
+                android:name=".bisnussuniversity"
+                android:exported="false" />
+            <activity
+                android:name=".computeruniversity"
+                android:exported="false" />
+            <activity
+                android:name=".sepapers"
+                android:exported="false" />
+            <activity
+                android:name=".updateActivity"
+                android:exported="false" />
+            <activity
+                android:name=".forgetpassword"
+                android:exported="false" />
+            <activity
+                android:name=".signup"
+                android:exported="false" >
+
+            </activity>
+            <activity
+                android:name=".login"
+                android:exported="true">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+
+            <activity
+                android:name=".secondbusiview"
+                android:exported="false" />
+            <activity
+                android:name=".secondengineview"
+                android:exported="false" />
+            <activity
+                android:name=".secondbusi"
+                android:exported="false" />
+            <activity
+                android:name=".secondengine"
+                android:exported="false" />
+            <activity
+                android:name=".secondcompview"
+                android:exported="false" />
+            <activity
+                android:name=".secondcomp"
+                android:exported="false" />
+            <activity
+                android:name=".selector"
+                android:exported="false" />
+            <activity
+                android:name=".MainActivity"
+                android:exported="false">
+
+            </activity>
+      
+    </application>
+
+</manifest>
